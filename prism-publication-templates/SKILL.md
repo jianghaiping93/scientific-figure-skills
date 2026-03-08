@@ -34,3 +34,26 @@ python3 skills/high-standard-figure-skills/prism-publication-templates/scripts/p
 - Extracted Prism templates are in:
   - `/nas/jhp/projects/bioinformatics/docs/references/1-111号模板/1-111号模板`
 - The `references/prism_template_catalog.csv` maps template id/title to family.
+
+## Quick Examples
+
+```bash
+# 中文：按模板家族快速作图（柱状图）
+python3 /nas/jhp/projects/bioinformatics/skills/high-standard-figure-skills/prism-publication-templates/scripts/plot_from_template_family.py \
+  --input /nas/jhp/projects/bioinformatics/results/figures/cas13/proteingym/non_proteingym_sparsity_vs_mutant_count_data.csv \
+  --family bar \
+  --x protein_type \
+  --y total_mutations \
+  --out /nas/jhp/projects/bioinformatics/results/figures/cas13/proteingym/example_bar.svg
+
+# English: scatter with group
+python3 /nas/jhp/projects/bioinformatics/skills/high-standard-figure-skills/prism-publication-templates/scripts/plot_from_template_family.py \
+  --input /nas/jhp/projects/bioinformatics/results/figures/cas13/proteingym/non_proteingym_sparsity_vs_mutant_count_data.csv \
+  --family scatter \
+  --x sparse_fitness \
+  --y total_mutations \
+  --group protein_type \
+  --xlabel "Sparsity" \
+  --ylabel "Mutant count" \
+  --out /nas/jhp/projects/bioinformatics/results/figures/cas13/proteingym/example_scatter.svg
+```

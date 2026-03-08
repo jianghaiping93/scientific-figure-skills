@@ -1,0 +1,6 @@
+version: 1
+display_name: Scientific Figure Router
+short_description: Auto-route figure requests to CAS13 pipelines or Prism-style template plotting.
+default_prompt: >
+  Inspect user intent and dataset schema, choose the best figure workflow
+  (CAS13-specific or Prism-family), then generate publication-grade SVG/PDF output.

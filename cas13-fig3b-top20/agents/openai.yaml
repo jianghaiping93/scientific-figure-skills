@@ -1,0 +1,6 @@
+version: 1
+display_name: CAS13 Fig3b Top20
+short_description: Rebuild and customize Top20 relative activity and correlation figures.
+default_prompt: >
+  Use the CAS13 fig3b pipeline to regenerate top20 relative activity by round and
+  prediction-vs-activity correlation figures with publication styling.

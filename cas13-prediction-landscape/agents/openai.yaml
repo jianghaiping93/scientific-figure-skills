@@ -1,0 +1,6 @@
+version: 1
+display_name: CAS13 Prediction Landscape
+short_description: Build round-level embedding landscapes from mutant predictions.
+default_prompt: >
+  Generate prediction landscape embeddings for selected rounds (especially round0 and
+  round14) and output publication-grade vector figures.

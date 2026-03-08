@@ -27,3 +27,14 @@ python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_round_prediction_la
 - `/nas/jhp/projects/bioinformatics/results/figures/cas13/fig_prediction_landscape_round0_round14/prediction_landscape_round0_round14.svg`
 - `/nas/jhp/projects/bioinformatics/results/figures/cas13/fig_prediction_landscape_round0_round14/prediction_landscape_round0.svg`
 - `/nas/jhp/projects/bioinformatics/results/figures/cas13/fig_prediction_landscape_round0_round14/prediction_landscape_round14.svg`
+
+## Quick Examples
+
+```bash
+# 中文：生成 round0/14 预测景观图
+python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_round_prediction_landscape.py
+
+# English: rebuild and open output directory listing
+python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_round_prediction_landscape.py
+ls -la /nas/jhp/projects/bioinformatics/results/figures/cas13/fig_prediction_landscape_round0_round14
+```

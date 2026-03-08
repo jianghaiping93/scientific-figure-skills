@@ -26,3 +26,14 @@ python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_fig3b_top20_relativ
 - Includes Top20 per-round relative activity to WT pipeline.
 - Includes selected-round prediction vs activity scatter/correlation outputs.
 - Prefer SVG/PDF outputs for publication editing.
+
+## Quick Examples
+
+```bash
+# 中文：生成 fig3b top20 相关全部图
+python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_fig3b_top20_relative_activity.py
+
+# English: regenerate and inspect stats table
+python3 /nas/jhp/projects/bioinformatics/scripts/cas13/build_fig3b_top20_relative_activity.py
+cat /nas/jhp/projects/bioinformatics/results/figures/cas13/fig3b_top20_relative_activity/top20_prediction_vs_activity_selected_rounds_stats.csv
+```

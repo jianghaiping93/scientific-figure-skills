@@ -1,0 +1,6 @@
+version: 1
+display_name: CAS13 Protein Sparsity
+short_description: Analyze and plot ProteinGym/non-ProteinGym sparsity landscapes.
+default_prompt: >
+  Run the non-ProteinGym sparsity pipeline, export figure/tables, and apply
+  restrained publication-level visual styling.

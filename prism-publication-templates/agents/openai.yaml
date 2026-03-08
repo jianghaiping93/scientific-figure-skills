@@ -1,0 +1,6 @@
+version: 1
+display_name: Prism Publication Templates
+short_description: Build publication-grade figures from Prism-style template families.
+default_prompt: >
+  Select a Prism template family (line/bar/scatter/violin_box/heatmap/distribution),
+  map input columns, and generate a publication-grade SVG/PDF figure.
